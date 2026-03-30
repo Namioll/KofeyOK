@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #135E4B;
+    color: #4CB572;
+}
+
+.container {
+    max-width: 1245px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.header-block {
+    margin: 20px;
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.telephone {
+    margin: 20px;
+    color: #A1D8B5;
+}
+
+.fon {
+    height: 400px;
+    background-image: url("images/fon.avif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.fon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.fon-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E0EFCC;
+    color: #4CB572;
+    padding: 30px;
+    border: 4px groove #0B735F;
+    border-radius: 10px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.button{
+    width: 200px;
+    flex: 1;
+    text-align: center;
+    background-color: #CCDCDB;
+    color: #135E4B;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid  #135E4B;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.images {
+    position: relative;  
+}
+
+.img1 {
+    width: 250px;
+    border: #135E4B 5px solid;
+}
+
+.img2 {
+    width: 250px;
+
+    position: absolute;
+    border: #135E4B 5px solid;
+    top: -30px;
+    left: -100px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-container {
+    background-color: #E0EFCC;
+    color: #4CB572;
+    margin: 20px;
+    padding: 30px;
+    border: #135E4B 5px solid;
+}
+
+.coffee-images {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+    
+    
+}
+
+.coffee {
+    display: flex;
+    flex-direction: column;
+    background-color: #CCDCDB;
+    padding: 20px;
+    border: #135E4B 5px solid;
+    width: 325px;
+}
+
+.offer {
+    color:brown;
+    margin: 10px;
+}
+
+.just-text {
+    color: #6b6b6b;
+}
+
+.about {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#E0EFCC;
+    margin: 20px;
+    padding: 10px;
+    gap: 40px;
+    border: #135E4B 5px solid;
+}
+
+.about-text {
+    margin: 10px;
+    color: #4CB572;
+}
+
+.history-img {
+    height: 500px;
+}
+
+.contact-section {
+    background-color: #CCDCDB;
+    padding: 40px 20px;
+    margin: 20px;
+    border: 5px solid #135E4B;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-block {
+    flex: 1;
+    min-width: 280px;
+    background-color: #E0EFCC;
+    padding: 30px;
+    border-radius: 10px;
+    border: 4px solid #135E4B;
+}
+
+.form-block h2 {
+    color: #135E4B;
+    margin-bottom: 10px;
+}
+
+.form-text {
+    color: #4CB572;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 2px solid #135E4B;
+    border-radius: 8px;
+    background-color: #CCDCDB;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-button {
+    background-color: #135E4B;
+    color: #4CB572;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-button:hover {
+    background-color: #0B4A3A;
+    color: #A1D8B5;
+}
+
+.map-block {
+    flex: 1;
+    min-width: 280px;
+}
+
+.map-block iframe {
+    width: 100%;
+    height: 350px;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding-top: 20px;
+    border-top: 3px solid #135E4B;
+    gap: 20px;
+}
+
+.social {
+    text-align: left;
+}
+
+.social p {
+    color: #135E4B;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    color: #4CB572;
+    text-decoration: none;
+    background-color: #135E4B;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #0B4A3A;
+    color: #A1D8B5;
+}
+
+.contacts-info {
+    text-align: right;
+    color: #135E4B;
+    font-weight: bold;
+}
+
+.contacts-info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 95%;
+    }
+    
+    .fon-container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .images {
+        margin-top: 20px;
+    }
+    
+    .coffee-images {
+        flex-wrap: wrap;
+    }
+    
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .history-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .menus {
+        order: 3;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .menus h1 {
+        font-size: 1.2rem;
+    }
+    
+    .telephone {
+        order: 2;
+    }
+    
+    .telephone h1 {
+        font-size: 1rem;
+    }
+    
+    .home {
+        order: 1;
+    }
+    
+    .header-block {
+        font-size: 1.5rem;
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .fon {
+        height: auto;
+        min-height: 500px;
+        padding: 40px 20px;
+    }
+    
+    .fon-content {
+        padding: 20px;
+    }
+    
+    .slogan {
+        font-size: 1.5rem;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .button {
+        width: 200px;
+        margin: 5px;
+    }
+    
+    .img1, .img2 {
+        width: 180px;
+    }
+    
+    .img2 {
+        top: -15px;
+        left: -15px;
+    }
+    
+    .news-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .coffee-images {
+        margin: 20px 10px;
+        gap: 15px;
+    }
+    
+    .coffee {
+        width: 100%;
+        max-width: 320px;
+    }
+    
+    .about {
+        margin: 10px;
+        padding: 15px;
+        gap: 20px;
+    }
+    
+    .about-text h1 {
+        font-size: 1.3rem;
+    }
+    
+    .just-text {
+        font-size: 0.9rem;
+    }
+    
+    .contact-section {
+        padding: 20px 15px;
+        margin: 10px;
+    }
+    
+    .contact-container {
+        gap: 20px;
+    }
+    
+    .form-block {
+        padding: 20px;
+    }
+    
+    .form-block h2 {
+        font-size: 1.3rem;
+    }
+    
+    .map-block iframe {
+        height: 250px;
+    }
+    
+    .footer-contacts {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .social {
+        text-align: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .contacts-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .menus {
+        gap: 12px;
+    }
+    
+    .menus h1 {
+        font-size: 0.9rem;
+    }
+    
+    .telephone h1 {
+        font-size: 0.85rem;
+    }
+    
+    .header-block {
+        font-size: 1.2rem;
+    }
+    
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .slogan {
+        font-size: 1.2rem;
+    }
+    
+    .button {
+        width: 160px;
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+    
+    .img1, .img2 {
+        width: 140px;
+    }
+    
+    .img2 {
+        top: -10px;
+        left: -10px;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    h2 {
+        font-size: 1.1rem;
+    }
+    
+    .coffee {
+        padding: 12px;
+    }
+    
+    .coffee img {
+        width: 80%;
+        height: auto;
+    }
+    
+    .offer {
+        font-size: 1rem;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .form-button {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .social-icons {
+        gap: 10px;
+    }
+    
+    .social-icons a {
+        padding: 5px 12px;
+        font-size: 0.85rem;
+    }
+    
+    .contacts-info p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .menus h1 {
+        font-size: 0.75rem;
+    }
+    
+    .slogan {
+        font-size: 1rem;
+    }
+    
+    .img1, .img2 {
+        width: 120px;
+    }
+    
+    .button {
+        width: 140px;
+        font-size: 0.8rem;
+    }
+    
+    .coffee {
+        max-width: 280px;
+    }
+}

@@ -147,10 +147,9 @@ header {
 .coffee-images {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 50px;
-    gap: 30px;
-    
-    
+    gap: 30px;  
 }
 
 .coffee {
@@ -206,14 +205,13 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .form-block {
-    flex: 1;
-    min-width: 280px;
     background-color: #E0EFCC;
     padding: 30px;
     border-radius: 10px;
     border: 4px solid #135E4B;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .form-block h2 {
@@ -226,68 +224,56 @@ header {
     margin-bottom: 20px;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
 .contact-form input,
 .contact-form textarea {
+    width: 100%;
     padding: 12px;
     border: 2px solid #135E4B;
     border-radius: 8px;
     background-color: #CCDCDB;
-    font-family: inherit;
-    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .contact-form textarea {
     min-height: 100px;
-    resize: vertical;
 }
 
 .form-button {
     background-color: #135E4B;
     color: #4CB572;
     padding: 12px;
-    border: none;
+    border: 2px solid #135E4B;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.form-button:hover {
-    background-color: #0B4A3A;
-    color: #A1D8B5;
+    width: 100%;
 }
 
 .map-block {
-    flex: 1;
-    min-width: 280px;
+    width: 100%;
 }
 
 .map-block iframe {
     width: 100%;
     height: 350px;
+    border: 4px solid #135E4B;
+    border-radius: 10px;
+}
+
+.contact-container {
+    margin-bottom: 30px;
 }
 
 .footer-contacts {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     max-width: 1200px;
     margin: 30px auto 0;
     padding-top: 20px;
     border-top: 3px solid #135E4B;
-    gap: 20px;
 }
 
 .social {
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .social p {
@@ -296,28 +282,17 @@ header {
     margin-bottom: 10px;
 }
 
-.social-icons {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
 .social-icons a {
     color: #4CB572;
     text-decoration: none;
     background-color: #135E4B;
     padding: 8px 15px;
     border-radius: 20px;
-    transition: 0.3s;
-}
-
-.social-icons a:hover {
-    background-color: #0B4A3A;
-    color: #A1D8B5;
+    margin-right: 10px;
 }
 
 .contacts-info {
-    text-align: right;
+    text-align: left;
     color: #135E4B;
     font-weight: bold;
 }
